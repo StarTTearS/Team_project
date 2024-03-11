@@ -1,0 +1,10 @@
+source .otx_env/bin/activate
+otx find --template --task DETECTION
+otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로
+cd otx-workspace-DETECTION/
+otx train
+otx export --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/export
+otx optimize --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/oprimize/
+otx deploy --load-weights ./outputs/export/openvino.xml --output ./outputs/deploy/
+cd outputs/deploy/openvino/python/
+python3 demo.py -i ./031.jpg -l
