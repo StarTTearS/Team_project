@@ -1,0 +1,251 @@
+{
+    "type_of_model": "SSD",
+    "converter_type": "DETECTION",
+    "model_parameters": {
+        "result_based_confidence_threshold": true,
+        "confidence_threshold": 0.4749999940395355,
+        "max_num_detections": 0,
+        "use_ellipse_shapes": false,
+        "resize_type": "fit_to_window_letterbox",
+        "pad_value": 114,
+        "labels": {
+            "label_tree": {
+                "type": "tree",
+                "directed": true,
+                "nodes": [],
+                "edges": []
+            },
+            "label_groups": [
+                {
+                    "_id": "65eac619eb96b34b2b673a96",
+                    "name": "labels",
+                    "label_ids": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10",
+                        "11"
+                    ],
+                    "relation_type": "EXCLUSIVE"
+                }
+            ],
+            "all_labels": {
+                "0": {
+                    "_id": "0",
+                    "name": "boiled_egg",
+                    "color": {
+                        "red": 57,
+                        "green": 158,
+                        "blue": 196,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "1": {
+                    "_id": "1",
+                    "name": "chicken",
+                    "color": {
+                        "red": 59,
+                        "green": 234,
+                        "blue": 222,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "2": {
+                    "_id": "2",
+                    "name": "cucumber",
+                    "color": {
+                        "red": 146,
+                        "green": 172,
+                        "blue": 30,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "3": {
+                    "_id": "3",
+                    "name": "hamburger",
+                    "color": {
+                        "red": 195,
+                        "green": 59,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "4": {
+                    "_id": "4",
+                    "name": "Jajangmyeon",
+                    "color": {
+                        "red": 49,
+                        "green": 205,
+                        "blue": 72,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "5": {
+                    "_id": "5",
+                    "name": "Jjambbong",
+                    "color": {
+                        "red": 59,
+                        "green": 129,
+                        "blue": 58,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "6": {
+                    "_id": "6",
+                    "name": "Sweet and sour pork",
+                    "color": {
+                        "red": 182,
+                        "green": 100,
+                        "blue": 232,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "7": {
+                    "_id": "7",
+                    "name": "kimbap",
+                    "color": {
+                        "red": 77,
+                        "green": 42,
+                        "blue": 7,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "8": {
+                    "_id": "8",
+                    "name": "kimchi_soup",
+                    "color": {
+                        "red": 152,
+                        "green": 36,
+                        "blue": 18,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "9": {
+                    "_id": "9",
+                    "name": "pizza",
+                    "color": {
+                        "red": 37,
+                        "green": 182,
+                        "blue": 117,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "10": {
+                    "_id": "10",
+                    "name": "tteokbokki",
+                    "color": {
+                        "red": 115,
+                        "green": 52,
+                        "blue": 251,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "11": {
+                    "_id": "11",
+                    "name": "chicken_fillet",
+                    "color": {
+                        "red": 43,
+                        "green": 27,
+                        "blue": 223,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-08T08:02:33.876000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                }
+            }
+        }
+    },
+    "tiling_parameters": {
+        "visible_in_ui": true,
+        "type": "PARAMETER_GROUP",
+        "enable_tiling": false,
+        "enable_tile_classifier": false,
+        "enable_adaptive_params": true,
+        "tile_size": 400,
+        "tile_overlap": 0.2,
+        "tile_max_number": 1500,
+        "tile_ir_scale_factor": 1.0,
+        "tile_sampling_ratio": 1.0,
+        "object_tile_ratio": 0.03,
+        "header": "Tiling Parameters",
+        "description": "Tiling Parameters",
+        "_ParameterGroup__metadata_overrides": {},
+        "groups": [],
+        "parameters": [
+            "enable_adaptive_params",
+            "enable_tile_classifier",
+            "enable_tiling",
+            "object_tile_ratio",
+            "tile_ir_scale_factor",
+            "tile_max_number",
+            "tile_overlap",
+            "tile_sampling_ratio",
+            "tile_size"
+        ]
+    }
+}
