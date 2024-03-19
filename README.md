@@ -26,15 +26,45 @@
        + 부가 기능4 : 만약 경고를 무시하고 계속 섭취할 경우 칼로리 소비를 위한 건강관리 프로그램 생성 추가
 <br>
 
-## 팀원 구성
-<div align="center">
+## 팀원 구성 및 역할 분담
+### 🍊김보람
 
-| **고지연** | **김민제** | **양희지** | **지창언** |
-| :------: |  :------: | :------: | :------: |
-| [<img src="https://avatars.githubusercontent.com/u/106502312?v=4" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+- **UI**
+    - 페이지 : 홈, 검색, 게시글 작성, 게시글 수정, 게시글 상세, 채팅방
+    - 공통 컴포넌트 : 게시글 템플릿, 버튼
+- **기능**
+    - 유저 검색, 게시글 등록 및 수정, 게시글 상세 확인, 댓글 등록, 팔로워 게시글 불러오기, 좋아요 기능
 
-</div>
+<br>
+    
+### 👻김용제
 
+- **UI**
+    - 페이지 : 프로필 설정, 프로필 수정, 팔로잉&팔로워 리스트, 상품 등록, 상품 수정, 채팅 목록, 404 페이지
+    - 공통 컴포넌트 : 탭메뉴, InputBox, Alert 모달, 댓글
+- **기능**
+    - 프로필 설정 및 수정 페이지 유저 아이디 유효성 및 중복 검사, 상품 등록 및 수정
+
+<br>
+
+### 😎이경준
+
+- **UI**
+    - 페이지 : splash 페이지, sns 로그인 페이지, 로그인, 회원가입
+    - 공통 컴포넌트 : 상품 카드, 사용자 배너
+- **기능**
+    - splash 페이지, sns로그인 페이지, 로그인 유효성 및 중복 검사, 회원가입 유효성 및 중복 검사, 이메일 검증, 프로필 설정, 접근제한 설정
+
+<br>
+
+### 🐬천호진
+
+- **UI**
+    - 페이지 : 사용자 프로필 페이지
+    - 공통 컴포넌트 : 탑배너, 하단 모달창
+- **기능**
+    - 팔로우 & 언팔로우, 로그아웃, 하단 모달창, 댓글 삭제, 게시글 삭제, 상품 삭제, 사용자 게시글 앨범형 이미지, 탑 배너 뒤로가기 버튼, Alert 모달
+    
 <br>
 
 ## 개발 환경
@@ -45,11 +75,13 @@
 * Webcam
 * GUI Framework
 
+
 ## Project Schedule
 
-<br>
+
 ## Gantt Chart
 ![gantt chart](https://github.com/brkim92/Team_project/assets/154492346/cf77d33b-c21b-49b4-8bdb-745b406d9770)
+
 <br>
 
 ## Sequence Diagram
@@ -75,7 +107,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
 
 ## Steps to build
 
@@ -103,6 +134,10 @@ python demo.py -i xxx -m yyy -d zzz
 
 ## Output
 
+![시연자료01](https://github.com/brkim92/Team_project/assets/154492346/f6b6b3bf-b2e6-4f8a-9c55-2ecf8b235f3d)
+![시연자료02](https://github.com/brkim92/Team_project/assets/154492346/896e4009-3b6e-46ea-80d5-a35cdca22041)
+![시연자료03](https://github.com/brkim92/Team_project/assets/154492346/5c9588a7-92ab-455b-9ed0-13550a41c194)
+![시연자료04](https://github.com/brkim92/Team_project/assets/154492346/e45edfe7-e5d2-43b4-9496-eec2a4feb3e7)
 * (프로젝트 실행 화면 캡쳐)
 
 ![./result.jpg](./result.jpg)
