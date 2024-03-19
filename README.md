@@ -87,6 +87,12 @@
 ## Sequence Diagram
 ![Sequence Diagram](https://github.com/brkim92/Team_project/assets/154492346/0124c87c-f0b8-4458-8b54-f5b6f18d0193)
 <br>
+
+## Module Diagram
+![Module Diagram](https://github.com/brkim92/Team_project/assets/154492346/80306fa4-97f7-4919-bf8e-9475cc5099cf)
+
+<br>
+
 ## High Level Design
 
 ![Screenshot from 2024-03-19 09-18-18](https://github.com/brkim92/Team_project/assets/154481519/ef8418bb-77fa-4ebc-87fa-1dcb5bcf880d)
