@@ -15,6 +15,9 @@
 <br>
 
 개발 동기는 아래와 같다.
+![스크린샷 2024-03-19 11-00-33](https://github.com/brkim92/Team_project/assets/154478954/d0bff305-2664-4b51-9520-b92c6944a32c)
+![스크린샷 2024-03-19 11-04-49](https://github.com/brkim92/Team_project/assets/154478954/fa9528b6-ac4a-4462-ab73-21fa4e106fe1)
+
 ```plain
 * 이유1 : 세상에는 결정장애들이 생각보다 많음. 그들의 시간낭비를 줄여주기 위한 프로그램이 필요
 
