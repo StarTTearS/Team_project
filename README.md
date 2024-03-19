@@ -147,13 +147,21 @@ pip install -r requirements.txt
 ## Steps to build
 
 * (프로젝트를 실행을 위해 빌드 절차 기술)
-
+* OTX
 ```shell
-cd ~/xxxx
-source .venv/bin/activate
+* OTX를 사용을 위한 가상환경 생성
+source .otx_env/bin/activate
 
-make
-make install
+* 사용 가능한 Model list
+otx find --template --task DETECTION
+otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로
+cd otx-workspace-DETECTION/
+otx train
+otx export --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/export
+otx optimize --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/oprimize/
+otx deploy --load-weights ./outputs/export/openvino.xml --output ./outputs/deploy/
+cd outputs/deploy/openvino/python/
+python3 demo.py -i 카메라 번호
 ```
 
 ## Steps to run
