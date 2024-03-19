@@ -138,6 +138,12 @@
 
 * (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
+* OTX
+  - OTX를 사용을 위한 가상환경 생성
+   ```shell
+   python -m venv .otx_venv
+   source .otx_env/bin/activate
+   ```
 ```shell
 python -m venv .venv
 source .venv/bin/activate
@@ -147,12 +153,7 @@ pip install -r requirements.txt
 ## Steps to build
 
 * (프로젝트를 실행을 위해 빌드 절차 기술)
-* OTX
 ```shell
-* OTX를 사용을 위한 가상환경 생성
-  python -m venv .otx_venv
-  source .otx_env/bin/activate
-
 * 사용 가능한 Model list
   otx find --template --task DETECTION
 otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로
