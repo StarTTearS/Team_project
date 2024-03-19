@@ -1,8 +1,10 @@
-# Project 오늘 뭐 먹지?
+# 🍳 OPENCV와 딥러닝을 이용한 음식 추천 프로그램
+![title1](https://github.com/brkim92/Team_project/assets/154492346/69df0c27-6a37-47a6-92b6-26cf3bcf7e91)
 
-* (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
-* 주제: "오늘 뭐 먹지?"라는 질문을 했을 때 랜덤하게 음식의 이미지와 정보를 출력해주는 프로그램
+<br>
 
+## 프로젝트 소개
+* 주제: OPENCV와 딥러닝을 이용한 음식 추천 프로그램
 * 이유1 : 세상에는 결정장애들이 생각보다 많음. 그들의 시간낭비를 줄여주기 위한 프로그램이 필요
 
     + 이유2 : 운동하는 사람들이 많음. 당신들이 먹는 음식에 대한 칼로리 계산 및 추천 음식이 필요
@@ -22,6 +24,28 @@
     + 부가 기능3 : 하루 남성 여성 기초 대사량 또는 평균 섭취 칼로리를 넘어가면 경고 표시 or 사이렌으로 그만 먹으라고 말하는 기능 추가
 
        + 부가 기능4 : 만약 경고를 무시하고 계속 섭취할 경우 칼로리 소비를 위한 건강관리 프로그램 생성 추가
+<br>
+
+## 팀원 구성
+<div align="center">
+
+| **고지연** | **김민제** | **양희지** | **지창언** |
+| :------: |  :------: | :------: | :------: |
+| [<img src="https://avatars.githubusercontent.com/u/106502312?v=4" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+
+</div>
+
+<br>
+
+## 1. 개발 환경
+* OpenCV
+* otx
+* CVAT
+* Python
+* Webcam
+* GUI Framework
+
+## 2. 프로젝트 일정 관리
 
 ## High Level Design
 
@@ -45,12 +69,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-* OpenCV
-* otx
-* CVAT
-* Python
-* Webcam
-* GUI Framework
+
 
 ## Steps to build
 
