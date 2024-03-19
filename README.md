@@ -37,7 +37,7 @@
 
 <br>
 
-## 1. 개발 환경
+## 개발 환경
 * OpenCV
 * otx
 * CVAT
@@ -45,14 +45,20 @@
 * Webcam
 * GUI Framework
 
-## 2. 프로젝트 일정 관리
+## Project Schedule
 
+<br>
+## Gantt Chart
+![gantt chart](https://github.com/brkim92/Team_project/assets/154492346/cf77d33b-c21b-49b4-8bdb-745b406d9770)
+<br>
+
+## Sequence Diagram
+![Sequence Diagram](https://github.com/brkim92/Team_project/assets/154492346/0124c87c-f0b8-4458-8b54-f5b6f18d0193)
+<br>
 ## High Level Design
 
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
-
 ![Screenshot from 2024-03-19 09-18-18](https://github.com/brkim92/Team_project/assets/154481519/ef8418bb-77fa-4ebc-87fa-1dcb5bcf880d)
-
+<br>
 
 ## Clone code
 
