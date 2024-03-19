@@ -107,7 +107,7 @@
 
 
 ## Project Schedule
-
+![Screenshot from 2024-03-19 15-02-15](https://github.com/brkim92/Team_project/assets/154481519/c53ce493-ad96-45ed-9c73-e0fcb989ffdd)
 
 ## Gantt Chart
 ![gantt chart](https://github.com/brkim92/Team_project/assets/154492346/cf77d33b-c21b-49b4-8bdb-745b406d9770)
