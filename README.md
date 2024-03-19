@@ -150,6 +150,7 @@ pip install -r requirements.txt
 * OTX
 ```shell
 * OTX를 사용을 위한 가상환경 생성
+python -m venv .otx_venv
 source .otx_env/bin/activate
 
 * 사용 가능한 Model list
