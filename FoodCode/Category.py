@@ -45,7 +45,7 @@ def display_random_image_in_category(folder_path, category_name, bookmark_folder
     food_name = subfolder_name
     calorie = get_calorie(food_name)
 
-    # 탄수화물, 단백질, 지방, 당류 정보
+    # 탄수화물, 단백질, 지방, 당류, 나트륨 정보
     carbs = get_carbs(food_name)
     protein = get_protein(food_name)
     fat = get_fat(food_name)
@@ -96,6 +96,12 @@ def display_random_image_in_category(folder_path, category_name, bookmark_folder
 
     # 이미지 출력
     cv2.imshow("Random Image", image)
+
+    # 이미지를 (x, y) 좌표에 표시
+    x = 1200
+    y = 300
+    cv2.moveWindow("Random Image", x, y)
+
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

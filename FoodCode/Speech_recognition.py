@@ -1,7 +1,7 @@
 import os
 import random
 import cv2
-import speech_recognition as sr
+import speech_recognition as sr  # 음성인식 모듈
 
 
 def recognize_speech():
@@ -12,13 +12,12 @@ def recognize_speech():
     with sr.Microphone() as source:
         print("음성을 입력하세요...")
         recognizer.adjust_for_ambient_noise(source)  # 주변 소음 조절
-        audio = recognizer.listen(source, timeout=2)
+        audio = recognizer.listen(source, timeout=3)
     while True:
         try:
             # 음성을 텍스트로 변환하여 반환
             text = recognizer.recognize_google(audio, language='ko-KR')
             return text
-            break
         except sr.UnknownValueError:
             print("음성을 인식할 수 없습니다.")
             return ""
