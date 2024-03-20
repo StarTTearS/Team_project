@@ -190,6 +190,8 @@ cd outputs/deploy/openvino/python/
 python3 demo.py -i 카메라 번호
 ```
 
+<br>
+
 ## Steps to run
 
 * (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
