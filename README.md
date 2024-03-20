@@ -104,7 +104,7 @@
 <br>
 
 ## Project Schedule
-![Screenshot from 2024-03-20 10-08-30](https://github.com/brkim92/Team_project/assets/154481519/71595912-835b-45e9-b5ef-673611e1efae)
+![Screenshot from 2024-03-20 17-21-55](https://github.com/brkim92/Team_project/assets/154481519/d9340ed4-fbd9-4012-87df-5eda7deb439a)
 
 <br>
 
