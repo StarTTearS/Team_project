@@ -15,6 +15,7 @@
 <br>
 
 개발 동기는 아래와 같다.
+
 ![스크린샷 2024-03-19 11-13-45](https://github.com/brkim92/Team_project/assets/154478954/23dad1a6-e29c-480a-8de0-e318081b53cc)
 
 ![스크린샷 2024-03-19 11-00-33](https://github.com/brkim92/Team_project/assets/154478954/d0bff305-2664-4b51-9520-b92c6944a32c)
@@ -23,19 +24,19 @@
 
 ```plain
 * 세상에는 결정장애를 겪는 사람들이 예상보다 많고, 이들이 시간을 낭비하는 것을 줄여주기 위한 프로그램이 필요하다.
-또한, 건강에 대한 관심이 높아지면서 제로콜라 열풍과 같은 트렌드가 나타나고 있어, 개개인이 먹는 음식의 칼로리를
-계산하고 건강에 적합한 음식을 추천해주는 서비스가 필요하다. 이러한 요구에 부합하기 위해 주 타겟인 결정장애자부터
-다이어트 및 운동에 관심이 있는 20~30대 일반인 등 다양한 사용자를 대상으로 음식 정보 제공 및 랜덤 음식 추천 등의
-주요 기능을 갖춘 프로그램을 개발하고자 한다.
+  또한, 건강에 대한 관심이 높아지면서 제로콜라 열풍과 같은 트렌드가 나타나고 있어, 개개인이 먹는 음식의 칼로리를
+  계산하고 건강에 적합한 음식을 추천해주는 서비스가 필요하다. 이러한 요구에 부합하기 위해 주 타겟인 결정장애자부터
+  다이어트 및 운동에 관심이 있는 20~30대 일반인 등 다양한 사용자를 대상으로 음식 정보 제공 및 랜덤 음식 추천 등의
+  주요 기능을 갖춘 프로그램을 개발하고자 한다.
 ```
 
 유스케이스 시나리오는 아래와 같다.
 
 ```
-첫번째 결정장애자가 있다.
-두번째 다이어트 및 운동에 관심이 있는 20~30대 일반인이 있다.
+첫번째, 결정장애를 가지고 있는 사람이 있다.
+두번째, 다이어트 및 운동에 관심이 있는 20~30대 일반인이 있다.
 
-결정장애자가 식사를 무엇으로 할지 고민한다. 
+결정장애를 가진 사람이 식사를 무엇으로 선택할지 고민한다. 
 '오늘 뭐 먹지?'에서 성별을 선택한다.
 성별 선택을 기준으로 기초 대사량 계산한 뒤 적절한 식단인지 아닌지 판별하는 기준으로 삼는다. 
 랜덤으로 음식을 추천하는 버튼을 누른다.
@@ -58,7 +59,6 @@
 
 ## 팀원 구성 및 역할 분담
 ### 🍊김보람
-
 - **ROLE**
     - 작업 내용 : 이미지 라벨링, 데이터셋 구성, 모델 선정, 학습된 모델 생성
     - 공통 작업 : 음식 이미지 찾기
@@ -66,14 +66,13 @@
 <br>
     
 ### 👻김용제
-
 - **ROLE**
     - 작업 내용 : 이미지 검출 기능 및 정보출력, 음식이미지 랜덤하게 출력, 음성 인식, 카테고리, 북마크 기능 코드 개발
     - 공통 작업 : 음식 이미지 찾기
+
 <br>
 
 ### 😎이경준
-
 - **ROLE**
     - 작업 내용 : 카메라에 비친 이미지 검출 기능 및 음식 정보 출력 코드 개발 
     - 공통 작업 : 음식 이미지 찾기
@@ -96,10 +95,12 @@
 * Webcam
 * GUI Framework
 
+<br>
 
 ## Project Schedule
 ![Screenshot from 2024-03-20 10-08-30](https://github.com/brkim92/Team_project/assets/154481519/71595912-835b-45e9-b5ef-673611e1efae)
 
+<br>
 
 ## Gantt Chart
 ![gantt chart](https://github.com/brkim92/Team_project/assets/154492346/cf77d33b-c21b-49b4-8bdb-745b406d9770)
@@ -108,6 +109,7 @@
 
 ## Sequence Diagram
 ![Sequence Diagram](https://github.com/brkim92/Team_project/assets/154492346/0124c87c-f0b8-4458-8b54-f5b6f18d0193)
+
 <br>
 
 ## Module Diagram
@@ -118,6 +120,7 @@
 ## High Level Design
 
 ![Screenshot from 2024-03-19 09-18-18](https://github.com/brkim92/Team_project/assets/154481519/ef8418bb-77fa-4ebc-87fa-1dcb5bcf880d)
+
 <br>
 
 ## Clone code
@@ -125,6 +128,8 @@
 * (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
   
 * git clone https://github.com/brkim92/Team_project.git
+
+<br>
 
 ## Prerequite
 
@@ -165,6 +170,8 @@
   pip install -r requirements.txt
   ```  
 
+<br>
+
 ## Steps to build
 
 * (프로젝트를 실행을 위해 빌드 절차 기술)
@@ -192,6 +199,8 @@ cd /path/to/repo/xxx/
 python demo.py -i xxx -m yyy -d zzz
 ```
 
+<br>
+
 ## Output
 * (프로젝트 실행 화면 캡쳐)
   
@@ -203,6 +212,7 @@ python demo.py -i xxx -m yyy -d zzz
 
 ![시연자료04](https://github.com/brkim92/Team_project/assets/154492346/e45edfe7-e5d2-43b4-9496-eec2a4feb3e7)
 
+<br>
 
 ## Appendix
 
