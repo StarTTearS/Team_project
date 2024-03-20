@@ -320,7 +320,7 @@
 
 ## Appendix
 
-* [(참고 자료 및 알아두어야할 사항들 기술)](https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html)
+* [(OpenVINO 참고 자료)](https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html)
   
-* [(참고 자료 및 알아두어야할 사항들 기술)](https://github.com/Megvii-BaseDetection/YOLOX)https://github.com/Megvii-BaseDetection/YOLOX
+* [(YOLOX 참고 자료)](https://github.com/Megvii-BaseDetection/YOLOX)https://github.com/Megvii-BaseDetection/YOLOX
 
