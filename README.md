@@ -318,6 +318,15 @@
 
 <br>
 
+## Demo Video
+[![Video Label](http://img.youtube.com/vi/5kHoBU4CPGc/0.jpg)](https://youtu.be/5kHoBU4CPGc)
+
+<br>
+
+## Presentation Document
+
+<br>
+
 ## Appendix
 
 * [(OpenVINO 참고 자료)](https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html)https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html
