@@ -319,6 +319,8 @@
 <br>
 
 ## Demo Video
+(아래 이미지를 클릭하시면 유튜브로 이동합니다.)
+
 [![Video Label](http://img.youtube.com/vi/5kHoBU4CPGc/0.jpg)](https://youtu.be/5kHoBU4CPGc)
 
 <br>
