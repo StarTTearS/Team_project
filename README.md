@@ -88,6 +88,12 @@
 <br>
 
 ## 개발 환경
+<br>
+
+![system](https://github.com/brkim92/Team_project/assets/154492346/7abc9bfd-04fc-433e-a575-345bf1ba656a)
+
+<br>
+
 * OpenCV
 * OTX
 * CVAT
