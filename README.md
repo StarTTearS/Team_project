@@ -339,8 +339,7 @@
 
 ## Appendix
 
-* [(OpenVINO 참고 자료)](https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html)https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html
-  
+* [(OpenVINO 참고 자료)](https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html)https://openvinotoolkit.github.io/training_extensions/stable/guide/explanation/algorithms/object_detection/object_detection.html  
 * [(YOLOX 참고 자료)](https://github.com/Megvii-BaseDetection/YOLOX)https://github.com/Megvii-BaseDetection/YOLOX
 * [OS.SYSTEM 함수 참고 자료](https://ctkim.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-os-%EB%AA%A8%EB%93%88)
 * [음성파일 재생, pygame 모듈](https://www.jbmpa.com/pygame/10)
