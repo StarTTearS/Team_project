@@ -136,27 +136,28 @@
 * (프로젝트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
 * OTX Install
-  - OTX를 사용을 위한 가상환경 생성
-   ```shell
-   python -m venv .otx_venv
-   source .otx_env/bin/activate
-   ```
-  - 필요한 Package Install
-   ```shell
-   pip install -U pip  #pip package manager를 최신 버전으로 Upgrade
-   pip install wheel  #wheel package install
-   pip install datumaro[default]  #기본 종속성과 함께 Datumaro package inatall
-   ```
-  - Pytorch & mmcv Install
-   ```shell
-   pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117  #CUDA 11.7와 호환
-   pip uninstall mmcv-full
-   pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13.0/index.html  #CUDA 11.7 및 PyTorch 1.13.0과 호환
-   ```
-  - OTX Install
-   ```shell
-   pip install otx[full]
-   ```
+  >- OTX를 사용을 위한 가상환경 생성  
+  > ```shell
+  > python -m venv .otx_venv
+  > source .otx_env/bin/activate
+  > ```
+  >- 필요한 Package Install
+  > ```shell
+  > pip install -U pip  #pip package manager를 최신 버전으로 Upgrade
+  > pip install wheel  #wheel package install
+  > pip install datumaro[default]  #기본 종속성과 함께 Datumaro package inatall
+  > ```
+  >- Pytorch & mmcv Install
+  > ```shell
+  > pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117  #CUDA 11.7와 호환
+  > pip uninstall mmcv-full
+  > pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13.0/index.html  #CUDA 11.7 및 PyTorch 1.13.0과 호환
+  > ```
+  >- OTX Install
+  > ```shell
+  > pip install otx[full]
+  > ```
+
 <br>
 
 * Docker Install
