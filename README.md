@@ -128,7 +128,7 @@
 
 ## Prerequite
 
-* (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
+* (프로wpr트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
 * OTX Install
   - OTX를 사용을 위한 가상환경 생성
@@ -136,24 +136,29 @@
    python -m venv .otx_venv
    source .otx_env/bin/activate
    ```
-  - 필요한 Package install
+  - 필요한 Package Install
    ```shell
    pip install -U pip  #pip package manager를 최신 버전으로 Upgrade
    pip install wheel  #wheel package install
    pip install datumaro[default]  #기본 종속성과 함께 Datumaro package inatall
    ```
-  - Pytorch & mmcv install
+  - Pytorch & mmcv Install
    ```shell
    pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117  #CUDA 11.7와 호환
    pip uninstall mmcv-full
    pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13.0/index.html  #CUDA 11.7 및 PyTorch 1.13.0과 호환
    ```
-  - OTX install
+  - OTX Install
    ```shell
    pip install otx[full]
    ```
 
-* requirements.txt Install
+* Docker Install
+  ```shell
+  https://opencv.github.io/cvat/docs/administration/basics/installation/
+  ```
+
+* Requirements.txt Install
   ```shell
   pip install -r requirements.txt
   ```
@@ -162,14 +167,13 @@
 
 * (프로젝트를 실행을 위해 빌드 절차 기술)
 ```shell
-* 사용 가능한 Model list
-  otx find --template --task DETECTION
-otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로
-cd otx-workspace-DETECTION/
-otx train
-otx export --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/export
-otx optimize --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/oprimize/
-otx deploy --load-weights ./outputs/export/openvino.xml --output ./outputs/deploy/
+otx find --template --task DETECTION  #사용 가능한 Object Detection Model list
+otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로  #Model 선택 후 학습 Data의 Root 경로를 지정하여 Mode을 Build
+cd otx-workspace-DETECTION/  #작업 Directory 변경
+otx train  #Model 학습
+otx export --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/export  #학습된 모델의 가중치를 내보냄
+otx optimize --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/oprimize/  #Model 최적화
+otx deploy --load-weights ./outputs/export/openvino.xml --output ./outputs/deploy/  #Model을 특정한 환경에 배포 가능한 형태로 변환하는 과정
 cd outputs/deploy/openvino/python/
 python3 demo.py -i 카메라 번호
 ```
