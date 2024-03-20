@@ -336,4 +336,5 @@
 * [(YOLOX 참고 자료)](https://github.com/Megvii-BaseDetection/YOLOX)https://github.com/Megvii-BaseDetection/YOLOX
 * [OS.SYSTEM 함수 참고 자료](https://ctkim.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-os-%EB%AA%A8%EB%93%88)
 * [음성파일 재생, pygame 모듈](https://www.jbmpa.com/pygame/10)
+* [음성인식, speech_recognition](https://sanggi-jayg.tistory.com/entry/Python-%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9DSpeech-Recognition-%EA%B3%BC-TTS-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
