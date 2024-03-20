@@ -170,14 +170,12 @@ python demo.py -i xxx -m yyy -d zzz
 ```
 
 ## Output
-
+* (프로젝트 실행 화면 캡쳐)
 ![시연자료01](https://github.com/brkim92/Team_project/assets/154492346/f6b6b3bf-b2e6-4f8a-9c55-2ecf8b235f3d)
 ![시연자료02](https://github.com/brkim92/Team_project/assets/154492346/896e4009-3b6e-46ea-80d5-a35cdca22041)
 ![시연자료03](https://github.com/brkim92/Team_project/assets/154492346/5c9588a7-92ab-455b-9ed0-13550a41c194)
 ![시연자료04](https://github.com/brkim92/Team_project/assets/154492346/e45edfe7-e5d2-43b4-9496-eec2a4feb3e7)
-* (프로젝트 실행 화면 캡쳐)
 
-![./result.jpg](./result.jpg)
 
 ## Appendix
 
