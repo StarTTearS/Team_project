@@ -1,0 +1,459 @@
+{
+    "type_of_model": "SSD",
+    "converter_type": "DETECTION",
+    "model_parameters": {
+        "result_based_confidence_threshold": true,
+        "confidence_threshold": 0.44999998807907104,
+        "max_num_detections": 0,
+        "use_ellipse_shapes": false,
+        "resize_type": "fit_to_window_letterbox",
+        "pad_value": 114,
+        "labels": {
+            "label_tree": {
+                "type": "tree",
+                "directed": true,
+                "nodes": [],
+                "edges": []
+            },
+            "label_groups": [
+                {
+                    "_id": "65f3f9c09668f7ea27c26ca5",
+                    "name": "labels",
+                    "label_ids": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10",
+                        "11",
+                        "12",
+                        "13",
+                        "14",
+                        "15",
+                        "16",
+                        "17",
+                        "18",
+                        "19",
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "24"
+                    ],
+                    "relation_type": "EXCLUSIVE"
+                }
+            ],
+            "all_labels": {
+                "0": {
+                    "_id": "0",
+                    "name": "kimbap",
+                    "color": {
+                        "red": 55,
+                        "green": 133,
+                        "blue": 80,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "1": {
+                    "_id": "1",
+                    "name": "kimchi_soup",
+                    "color": {
+                        "red": 122,
+                        "green": 110,
+                        "blue": 254,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "2": {
+                    "_id": "2",
+                    "name": "tteokbokki",
+                    "color": {
+                        "red": 131,
+                        "green": 67,
+                        "blue": 110,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "3": {
+                    "_id": "3",
+                    "name": "eggs",
+                    "color": {
+                        "red": 17,
+                        "green": 6,
+                        "blue": 178,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "4": {
+                    "_id": "4",
+                    "name": "chicken_fillet",
+                    "color": {
+                        "red": 86,
+                        "green": 2,
+                        "blue": 34,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "5": {
+                    "_id": "5",
+                    "name": "bulgogi",
+                    "color": {
+                        "red": 70,
+                        "green": 34,
+                        "blue": 214,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "6": {
+                    "_id": "6",
+                    "name": "chicken",
+                    "color": {
+                        "red": 248,
+                        "green": 126,
+                        "blue": 205,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "7": {
+                    "_id": "7",
+                    "name": "hambuger",
+                    "color": {
+                        "red": 225,
+                        "green": 117,
+                        "blue": 178,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "8": {
+                    "_id": "8",
+                    "name": "pizza",
+                    "color": {
+                        "red": 13,
+                        "green": 43,
+                        "blue": 91,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "9": {
+                    "_id": "9",
+                    "name": "jajangmyeon",
+                    "color": {
+                        "red": 177,
+                        "green": 208,
+                        "blue": 148,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "10": {
+                    "_id": "10",
+                    "name": "jjamppong",
+                    "color": {
+                        "red": 143,
+                        "green": 141,
+                        "blue": 249,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "11": {
+                    "_id": "11",
+                    "name": "sweet_and_sour_pork",
+                    "color": {
+                        "red": 220,
+                        "green": 130,
+                        "blue": 93,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "12": {
+                    "_id": "12",
+                    "name": "apple",
+                    "color": {
+                        "red": 50,
+                        "green": 87,
+                        "blue": 148,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "13": {
+                    "_id": "13",
+                    "name": "banana",
+                    "color": {
+                        "red": 109,
+                        "green": 166,
+                        "blue": 163,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "14": {
+                    "_id": "14",
+                    "name": "curry",
+                    "color": {
+                        "red": 116,
+                        "green": 215,
+                        "blue": 231,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "15": {
+                    "_id": "15",
+                    "name": "fish",
+                    "color": {
+                        "red": 46,
+                        "green": 68,
+                        "blue": 247,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "16": {
+                    "_id": "16",
+                    "name": "grape",
+                    "color": {
+                        "red": 166,
+                        "green": 4,
+                        "blue": 95,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "17": {
+                    "_id": "17",
+                    "name": "hotdog",
+                    "color": {
+                        "red": 101,
+                        "green": 175,
+                        "blue": 165,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "18": {
+                    "_id": "18",
+                    "name": "kalguksu",
+                    "color": {
+                        "red": 25,
+                        "green": 118,
+                        "blue": 206,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "19": {
+                    "_id": "19",
+                    "name": "pork_belly",
+                    "color": {
+                        "red": 251,
+                        "green": 27,
+                        "blue": 41,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "20": {
+                    "_id": "20",
+                    "name": "salad",
+                    "color": {
+                        "red": 114,
+                        "green": 28,
+                        "blue": 17,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.247000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "21": {
+                    "_id": "21",
+                    "name": "strawberry",
+                    "color": {
+                        "red": 115,
+                        "green": 23,
+                        "blue": 81,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.248000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "22": {
+                    "_id": "22",
+                    "name": "sushi",
+                    "color": {
+                        "red": 194,
+                        "green": 7,
+                        "blue": 66,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.248000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "23": {
+                    "_id": "23",
+                    "name": "sweetpotato",
+                    "color": {
+                        "red": 108,
+                        "green": 137,
+                        "blue": 137,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.248000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                },
+                "24": {
+                    "_id": "24",
+                    "name": "trotter",
+                    "color": {
+                        "red": 58,
+                        "green": 185,
+                        "blue": 138,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2024-03-15T07:33:20.248000",
+                    "is_empty": false,
+                    "is_anomalous": false
+                }
+            }
+        }
+    },
+    "tiling_parameters": {
+        "visible_in_ui": true,
+        "type": "PARAMETER_GROUP",
+        "enable_tiling": false,
+        "enable_tile_classifier": false,
+        "enable_adaptive_params": true,
+        "tile_size": 400,
+        "tile_overlap": 0.2,
+        "tile_max_number": 1500,
+        "tile_ir_scale_factor": 1.0,
+        "tile_sampling_ratio": 1.0,
+        "object_tile_ratio": 0.03,
+        "header": "Tiling Parameters",
+        "description": "Tiling Parameters",
+        "_ParameterGroup__metadata_overrides": {},
+        "groups": [],
+        "parameters": [
+            "enable_adaptive_params",
+            "enable_tile_classifier",
+            "enable_tiling",
+            "object_tile_ratio",
+            "tile_ir_scale_factor",
+            "tile_max_number",
+            "tile_overlap",
+            "tile_sampling_ratio",
+            "tile_size"
+        ]
+    }
+}
