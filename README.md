@@ -241,6 +241,70 @@
   
 <br>
 
+## Tree
+```shell
+.
+├── Category.py
+├── Food.py
+├── Food_Nutrient.xlsx
+├── Good.mp3
+├── Police_Siren.mp3
+├── Siren.py
+├── Speech_recognition.py
+├── TextOutput.py
+├── TextOutput2.py
+├── VoiceOutput.py
+├── __pycache__
+│   ├── Category.cpython-310.pyc
+│   ├── Category.cpython-38.pyc
+│   ├── Siren.cpython-310.pyc
+│   ├── Speech_recognition.cpython-310.pyc
+│   ├── Speech_recognition.cpython-38.pyc
+│   ├── TextOutput.cpython-310.pyc
+│   ├── TextOutput.cpython-38.pyc
+│   ├── TextOutput2.cpython-310.pyc
+│   ├── VoiceOutput.cpython-310.pyc
+│   ├── VoiceOutput.cpython-38.pyc
+│   ├── bookmark.cpython-310.pyc
+│   ├── bookmark.cpython-38.pyc
+│   ├── display_food_image.cpython-310.pyc
+│   ├── display_food_image.cpython-38.pyc
+│   ├── gets_nutrient.cpython-310.pyc
+│   ├── gets_nutrient.cpython-38.pyc
+│   ├── warn_good_image.cpython-310.pyc
+│   └── warn_good_image.cpython-38.pyc
+├── bookmark.py
+├── demo.py
+├── display_food_image.py
+├── food.png
+├── foodgui.py
+├── gets_nutrient.py
+├── imageresize.py
+├── openvino
+│   ├── README.md
+│   ├── model
+│   │   ├── config.json
+│   │   ├── model.bin
+│   │   └── model.xml
+│   └── python
+│       ├── LICENSE
+│       ├── demo.py
+│       ├── model_wrappers
+│       │   ├── __init__.py
+│       │   └── __pycache__
+│       │       └── __init__.cpython-310.pyc
+│       └── requirements.txt
+├── openvino.zip
+├── requirements.txt
+├── title1.png
+├── visualizer.py
+└── warn_good_image.py
+
+6 directories, 49 files
+```
+
+<br>
+
 ## Output
 * (프로젝트 실행 화면 캡쳐)
   
