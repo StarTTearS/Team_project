@@ -128,7 +128,7 @@
 
 ## Prerequite
 
-* (프로wpr트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
+* (프로젝트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
 * OTX Install
   - OTX를 사용을 위한 가상환경 생성
@@ -152,16 +152,18 @@
    ```shell
    pip install otx[full]
    ```
+<br>
 
 * Docker Install
   ```shell
   https://opencv.github.io/cvat/docs/administration/basics/installation/
   ```
+<br>
 
 * Requirements.txt Install
   ```shell
   pip install -r requirements.txt
-  ```
+  ```  
 
 ## Steps to build
 
