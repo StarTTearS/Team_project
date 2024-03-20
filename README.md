@@ -326,6 +326,8 @@
 <br>
 
 ## Presentation Document
+(아래 이미지를 클릭하시면 구글 드라이브로 이동합니다.)
+[![프로젝트 발표자료](https://github.com/brkim92/Team_project/blob/0fb882f2bcb6af63c23c7927bebfb3ebf9024bda/PPT%20and%20Design%20Image/project_thumbnail.jpg)](https://docs.google.com/presentation/d/1L_pPFMZthQaw05bNle745C850yg6_qc9/edit?usp=sharing&ouid=115838414545194956375&rtpof=true&sd=true)
 
 <br>
 
