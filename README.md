@@ -117,6 +117,10 @@
 
 <br>
 
+<img src="https://github.com/brkim92/Team_project/blob/64fa79c7b4b9a857b0be004f93cfb0df4f1fdb7e/PPT%20and%20Design%20Image/simple%20diagram.png" width="500" height="500"/>
+
+<br>
+
 ## High Level Design
 
 ![Screenshot from 2024-03-19 09-18-18](https://github.com/brkim92/Team_project/assets/154481519/ef8418bb-77fa-4ebc-87fa-1dcb5bcf880d)
@@ -172,6 +176,32 @@
   ```shell
   pip install -r requirements.txt
   ```  
+
+<br>
+
+* GUI Install
+  
+  ```shell
+  pip install tkinter
+
+  import tkinter as tk
+  from tkinter import *
+  from tkinter import ttk
+  ```
+  
+<br>
+
+* DroidCam
+  ```shell
+  cd /tmp/
+  wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.2.zip
+  ' # sha1sum: d5eb769f249011fbfa0edef05ffd56949b63d470'
+  unzip droidcam_latest.zip -d droidcam
+  cd droidcam && sudo ./install-client
+
+   ＊ wifi 아닐경우) 안드로이드 usb 드라이버 다운
+  sudo apt-get install adb
+  ```
 
 <br>
 
