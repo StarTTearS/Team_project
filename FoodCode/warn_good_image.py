@@ -1,4 +1,5 @@
 import cv2
+from Siren import Warning_Output, Good_Output
 
 
 def warning_image():
@@ -6,7 +7,7 @@ def warning_image():
     warn = cv2.imread(warn_path)
     warn = cv2.resize(warn, (800, 700))
 
-    text1 = "Stop Eating! Pig!"
+    text1 = "Stop Eating! Fire Pig!"
     font = cv2.FONT_HERSHEY_SIMPLEX
     font_scale = 2
     font_thickness = 2
@@ -23,8 +24,14 @@ def warning_image():
 
     cv2.imshow("Stop Eating! Fire Pig!", warn)
 
+    # 이미지를 (x, y) 좌표에 표시
+    x = 1200
+    y = 300
+    cv2.moveWindow('Stop Eating! Fire Pig!', x, y)
+
     while True:
         if cv2.waitKey(1) == ord('q'):
+            Warning_Output()
             break
     cv2.destroyAllWindows()
 
@@ -51,7 +58,13 @@ def good_image():
 
     cv2.imshow("You are very Good!", good)
 
+    # 이미지를 (x, y) 좌표에 표시
+    x = 1200
+    y = 300
+    cv2.moveWindow('You are very Good!', x, y)
+
     while True:
         if cv2.waitKey(1) == ord('q'):
+            Good_Output()
             break
     cv2.destroyAllWindows()

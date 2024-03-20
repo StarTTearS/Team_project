@@ -1,7 +1,7 @@
 import cv2
 import random
 import os
-from gets_nutrient import get_calorie, get_carbs, get_fat, get_protein, get_sugar, get_sodium
+from gets_nutrient import get_calorie, get_carbs, get_fat, get_protein, get_sugar, get_sodium  # 음식 정보 저장된 모듈
 
 
 def display_random_food_image(folder_path, bookmark_folder):
@@ -93,7 +93,7 @@ def display_random_food_image(folder_path, bookmark_folder):
     text_y4 = text_y3 + text_size4[1] + 20
     text_org4 = (text_x4, text_y4)
 
-    text_color = (59, 50, 255)  # 흰색
+    text_color = (59, 50, 255)  # 색 설정
 
     # 이미지에 텍스트 추가
     cv2.putText(image, text1, text_org1, font,
@@ -107,6 +107,11 @@ def display_random_food_image(folder_path, bookmark_folder):
 
     # 이미지 출력
     cv2.imshow("Today's Food", image)
+
+    # 이미지를 (x, y) 좌표에 표시
+    x = 1200
+    y = 300
+    cv2.moveWindow("Today's Food", x, y)
 
     # 해당하는 음식 폴더에 이미지 저장
     save_folder = os.path.join(

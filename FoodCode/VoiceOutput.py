@@ -1,7 +1,9 @@
-from warn_good_image import good_image, warning_image
-from Speech_recognition import recognize_speech
-from display_food_image import display_random_food_image
+from warn_good_image import good_image, warning_image  # 경고 이미지 및 격려 이미지 출력 모듈
+from Speech_recognition import recognize_speech     # 음성 인식 모듈
+from display_food_image import display_random_food_image  # 음식 이미지 랜덤 출력 및 음식 정보 출력 모듈
 import time
+
+# 음식 정보 출력 (단일 음식 및 삼시세끼)
 
 
 def Output_voice_and_image(folder_path, bookmark_folder, gender):
@@ -14,10 +16,10 @@ def Output_voice_and_image(folder_path, bookmark_folder, gender):
 
     print("추천 = 오늘의 음식 추천, 일정 = 아침, 점심, 저녁 메뉴 추천 : ", end='')
     time.sleep(2)
-    number_input = recognize_speech()
+    number_input = recognize_speech()  # 음성 인식
     print(f"speech : {number_input}")
 
-    if number_input == '추천':
+    if number_input == '추천':  # 단일 음식 추천 및 음식 정보 출력
         total_calorie, total_carbohydrate, total_protein, total_fat, total_sugar, total_sodium = display_random_food_image(
             folder_path, bookmark_folder)
 
@@ -28,7 +30,7 @@ def Output_voice_and_image(folder_path, bookmark_folder, gender):
         print(f"총 당류 : {total_sugar:.2f}g")
         print(f"총 나트륨 : {total_sodium:.2f}mg")
 
-    elif number_input == '일정':
+    elif number_input == '일정':  # 삼시세끼 음식 추천 및 음식 정보 출력
         for i in range(0, 3):
             calorie, carbohydrate, protein, fat, sugar, sodium = display_random_food_image(
                 folder_path, bookmark_folder)
