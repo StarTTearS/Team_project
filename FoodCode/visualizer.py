@@ -136,7 +136,7 @@ class Visualizer(IVisualizer):
         """
 
         if not self.no_show:
-            cv2.imshow(self.window_name, image)
+            cv2.imshow(self.window_name, image, cv2.WINDOW_GUI_NORMAL | cv2.WINDOW_AUTOSIZE)
             if self.output:
                 cv2.imwrite(self.output, image)
 
