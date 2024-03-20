@@ -223,7 +223,22 @@
   
   python3 demo.py -i 카메라 번호
   ```
+  
+* DroidCam Video Stream
+  Droidcam 을 이용해 스마트폰을 웹캠으로 이용하여 음식 감지 편의성 높이기
 
+  ```shell
+  핸드폰)
+  1) Droidcam 어플리케이션 다운
+  2) wifi ip, port 번호 확인
+
+  리눅스)
+  1) 리눅스용 Droidcam 다운
+  2) wifi 아닐경우) 안드로이드 usb 드라이버 다운
+  3) Droidcam 실행
+  4) 핸드폰에서 확인한 wifi ip 및 port 번호 입력 후 start
+  ```
+  
 <br>
 
 ## Steps to run
