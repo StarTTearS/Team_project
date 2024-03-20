@@ -60,31 +60,31 @@
 ### 🍊김보람
 
 - **ROLE**
-    - 기능 : 데이터셋 구성, 이미지 라벨링, 학습된 모델 생성, 모델 선정
-    - 공통 컴포넌트 : 음식 이미지 찾기
+    - 작업 내용 : 이미지 라벨링, 데이터셋 구성, 모델 선정, 학습된 모델 생성
+    - 공통 작업 : 음식 이미지 찾기
 
 <br>
     
 ### 👻김용제
 
 - **ROLE**
-    - 기능 : 이미지 검출 기능 및 정보출력, 음식이미지 랜덤하게 출력, 음성 인식, 카테고리, 북마크 기능 코드 개발
-    - 공통 컴포넌트 : 음식 이미지 찾기
+    - 작업 내용 : 이미지 검출 기능 및 정보출력, 음식이미지 랜덤하게 출력, 음성 인식, 카테고리, 북마크 기능 코드 개발
+    - 공통 작업 : 음식 이미지 찾기
 <br>
 
 ### 😎이경준
 
 - **ROLE**
-    - 기능 : 카메라에 비친 이미지 검출 기능 및 음식 정보 출력 코드 개발 
-    - 공통 컴포넌트 : 음식 이미지 찾기
+    - 작업 내용 : 카메라에 비친 이미지 검출 기능 및 음식 정보 출력 코드 개발 
+    - 공통 작업 : 음식 이미지 찾기
 
 <br>
 
 ### 🐬천호진
 
 - **ROLE**
-    - 기능 : 데이터셋 구성, GUI 프레임워크 개발, PPT 제작
-    - 공통 컴포넌트 : 음식 이미지 찾기
+    - 작업 내용 : GUI 프레임워크 개발, PPT 제작
+    - 공통 작업 : 음식 이미지 찾기
     
 <br>
 
@@ -130,17 +130,33 @@
 
 * (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
-* OTX
+* OTX Install
   - OTX를 사용을 위한 가상환경 생성
    ```shell
    python -m venv .otx_venv
    source .otx_env/bin/activate
    ```
-```shell
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+  - 필요한 Package install
+   ```shell
+   pip install -U pip  #pip package manager를 최신 버전으로 Upgrade
+   pip install wheel  #wheel package install
+   pip install datumaro[default]  #기본 종속성과 함께 Datumaro package inatall
+   ```
+  - Pytorch & mmcv install
+   ```shell
+   pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117  #CUDA 11.7와 호환
+   pip uninstall mmcv-full
+   pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13.0/index.html  #CUDA 11.7 및 PyTorch 1.13.0과 호환
+   ```
+  - OTX install
+   ```shell
+   pip install otx[full]
+   ```
+
+* requirements.txt Install
+  ```shell
+  pip install -r requirements.txt
+  ```
 
 ## Steps to build
 
