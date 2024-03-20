@@ -100,9 +100,12 @@ class Visualizer(IVisualizer):
         # 창을 표시할 위치를 지정합니다. 여기서는 모니터의 왼쪽 상단에 창을 표시하도록 설정합니다.
         window_x = monitor_x + 1200  # 원하는 X 좌표로 조정하세요.
         window_y = monitor_y + 300  # 원하는 Y 좌표로 조정하세요.
-
+        
         # 창의 이름을 지정하고 창을 생성합니다.
-        cv2.namedWindow(self.window_name)
+        cv2.namedWindow(self.window_name, cv2.WINDOW_GUI_NORMAL)
+        
+        # 창의 크기를 조절합니다.
+        cv2.resizeWindow(self.window_name, 960, 720)
 
         # 창을 지정된 위치로 이동시킵니다.
         cv2.moveWindow(self.window_name, window_x, window_y)
