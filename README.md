@@ -175,15 +175,18 @@
 ## Steps to build
 
 * (프로젝트를 실행을 위해 빌드 절차 기술)
+* Model 선택 & 학습
 ```shell
 otx find --template --task DETECTION  #사용 가능한 Object Detection Model list
 otx build Object_Detection_YOLOX_L --train-data-root /annotations file이 있는 상위 경로  #Model 선택 후 학습 Data의 Root 경로를 지정하여 Mode을 Build
 cd otx-workspace-DETECTION/  #작업 Directory 변경
+
 otx train  #Model 학습
 otx export --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/export  #학습된 모델의 가중치를 내보냄
 otx optimize --load-weights ./outputs/latest_trained_model/models/weights.pth --output ./outputs/oprimize/  #Model 최적화
 otx deploy --load-weights ./outputs/export/openvino.xml --output ./outputs/deploy/  #Model을 특정한 환경에 배포 가능한 형태로 변환하는 과정
 cd outputs/deploy/openvino/python/
+
 python3 demo.py -i 카메라 번호
 ```
 
